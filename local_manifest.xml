@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="frankinstine/android_device_htc_msm8660-common" path="device/htc/msm8660-common" revision="jellybean" />
+  <project name="frankinstine/android_device_htc_pyramid" path="device/htc/pyramid" revision="jellybean" />
+  <project name="frankinstine/vendor_htc" path="vendor/htc" revision="master" />
+
+ <remove-project name="AOKP/android_hardware_qcom_audio" path="hardware/qcom/audio" />
+  <project name="frankinstine/android_hardware_qcom_audio" path="hardware/qcom/audio" revision="jellybean" />
+
+<remove-project name="AOKP/android_hardware_qcom_display" path="hardware/qcom/display" />
+  <project name="frankinstine/hardware_qcom_display" path="hardware/qcom/display" revision="jellybean" />
+
+<remove-project name="AOKP/vendor_aokp" path="vendor/aokp" />
+  <project name="frankinstine/vendor_aokp" path="vendor/aokp" revision="master" />
+ 
+</manifest>
