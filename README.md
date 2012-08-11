@@ -1,2 +1,1 @@
-local_manifest
-==============
+wget -O ~/android/system/.repo/local_manifest.xml https://raw.github.com/frankinstine/local_manifest/master/local_manifest.xml
